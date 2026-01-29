@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTFDB", "ProjectTFDB\ProjectTFDB.csproj", "{8A2E4B5C-1F3D-4E8F-9B7C-5A1D2E3F4A5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTFDB", "docs\\Prototypes\\Prototype1\\Prototype1\\ProjectTFDB.csproj", "{8A2E4B5C-1F3D-4E8F-9B7C-5A1D2E3F4A5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,7 +4,7 @@
 
 ```powershell
 dotnet build .\ProjectTFDB.sln -c Debug
-dotnet run --project .\ProjectTFDB\ProjectTFDB.csproj -c Debug
+dotnet run --project .\docs\Prototypes\Prototype1\Prototype1\ProjectTFDB.csproj -c Debug
 ```
 
 ## Automation
@@ -17,13 +17,13 @@ dotnet run --project .\ProjectTFDB\ProjectTFDB.csproj -c Debug
 After a build, the app executable is here:
 
 ```
-ProjectTFDB\bin\Debug\net10.0-windows\ProjectTFDB.exe
+docs\Prototypes\Prototype1\Prototype1\bin\Debug\net10.0-windows\ProjectTFDB.exe
 ```
 
 For a Release build, use:
 
 ```
-ProjectTFDB\bin\Release\net10.0-windows\ProjectTFDB.exe
+docs\Prototypes\Prototype1\Prototype1\bin\Release\net10.0-windows\ProjectTFDB.exe
 ```
 
 ## Prototypes

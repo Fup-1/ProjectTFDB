@@ -5,5 +5,18 @@ param(
 $repoRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
 Set-Location $repoRoot
 
-dotnet build .\ProjectTFDB.sln -c $Configuration
-dotnet run --project .\ProjectTFDB\ProjectTFDB.csproj -c $Configuration
+$solutionPath = Join-Path $repoRoot "ProjectTFDB.sln"
+$projectPath = Join-Path $repoRoot "ProjectTFDB\\ProjectTFDB.csproj"
+if (!(Test-Path $projectPath)) {
+    $projectPath = Join-Path $repoRoot "docs\\Prototypes\\Prototype1\\Prototype1\\ProjectTFDB.csproj"
+}
+if (!(Test-Path $projectPath)) {
+    throw "Project file not found."
+}
+
+if (Test-Path $solutionPath) {
+    dotnet build $solutionPath -c $Configuration
+} else {
+    dotnet build $projectPath -c $Configuration
+}
+dotnet run --project $projectPath -c $Configuration
