@@ -12,6 +12,8 @@ dotnet run --project .\docs\Prototypes\Prototype1\Prototype1\ProjectTFDB.csproj 
 - Local: `.\scripts\dev.ps1` (build + run), `.\scripts\test.ps1` (tests)
 - GitHub: CI builds on push/PR via `.github/workflows/ci.yml`
 
+**Update #1:** Added CI workflow and local scripts.
+
 ## Executable location
 
 After a build, the app executable is here:
