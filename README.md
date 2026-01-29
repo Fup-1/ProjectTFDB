@@ -68,7 +68,7 @@ You can get your SteamID64 in any of these ways:
 - Steam client: Account details shows your 17‑digit SteamID64.
 
 ```
-https://flightsimulator.zendesk.com/hc/en-us/articles/360015953320-How-to-find-your-Steam-ID64-before-contacting-support
+https://steamid.io/
 ```
 
 - Steam profile URL: if your profile URL is numeric, that 17‑digit number is your SteamID64.
