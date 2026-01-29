@@ -7,6 +7,11 @@ dotnet build .\ProjectTFDB.sln -c Debug
 dotnet run --project .\ProjectTFDB\ProjectTFDB.csproj -c Debug
 ```
 
+## Automation
+
+- Local: `.\scripts\dev.ps1` (build + run), `.\scripts\test.ps1` (tests)
+- GitHub: CI builds on push/PR via `.github/workflows/ci.yml`
+
 ## Executable location
 
 After a build, the app executable is here:
