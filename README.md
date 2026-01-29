@@ -21,10 +21,10 @@ dotnet run --project .\docs\Prototypes\Prototype1\Prototype1\ProjectTFDB.csproj 
 Updates will be added as I get to them, and more items will be added to this list later.
 Polishing the program is planned for much later.
 
-- Wire up `loadout.tf` support (API key + fetch + cache).
+- `loadout.tf` support.
 - Add a small settings panel for new keys and rate-limit info.
 - Add basic error/status log view (using `logs/`).
-- Show per-item pricing details and price sources.
+- Show per-item pricing details and price.
 - Add filters (quality, craftable, tradable, price range).
 - Export inventory report (CSV/JSON).
 
