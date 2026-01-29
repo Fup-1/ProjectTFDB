@@ -74,3 +74,7 @@ https://steamid.io/
 ```
 
 Add the values in the app’s **Settings** tab (SteamID64, Steam Web API Key, Backpack.tf API Key), then click **Save**.
+
+---
+
+Made with help from OpenAI.
