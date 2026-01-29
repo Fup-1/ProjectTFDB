@@ -65,12 +65,12 @@ https://next.backpack.tf/account/api-access
 
 ### SteamID64
 You can get your SteamID64 in any of these ways:
-- Steam client: Account details shows your 17‑digit SteamID64.
+- Steam client: `Steam` → `Settings` → `Account`, then click **Account Details**. Your 17‑digit SteamID64 is listed there.
+- Steam profile URL: open your profile in a browser; if the URL ends with a 17‑digit number, that is your SteamID64.
+- SteamID.io: paste your profile URL or custom vanity URL and it shows your SteamID64.
 
 ```
 https://steamid.io/
 ```
-
-- Steam profile URL: if your profile URL is numeric, that 17‑digit number is your SteamID64.
 
 Add the values in the app’s **Settings** tab (SteamID64, Steam Web API Key, Backpack.tf API Key), then click **Save**.
