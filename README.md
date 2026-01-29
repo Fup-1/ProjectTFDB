@@ -21,3 +21,16 @@ For a Release build, use:
 ProjectTFDB\bin\Release\net10.0-windows\ProjectTFDB.exe
 ```
 
+## Prototypes
+
+Prototype files are stored under:
+
+```
+docs\Prototypes\
+```
+
+Current prototype snapshot:
+
+```
+docs\Prototypes\Prototype1\
+```
