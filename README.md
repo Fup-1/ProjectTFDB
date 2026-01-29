@@ -16,6 +16,23 @@ dotnet run --project .\docs\Prototypes\Prototype1\Prototype1\ProjectTFDB.csproj 
 
 **Update #1:** Added CI workflow and local scripts.
 
+## Roadmap (timeline)
+
+**Week 1 – Setup & data**
+- Wire up `loadout.tf` support (API key + fetch + cache).
+- Add a small settings panel for new keys and rate-limit info.
+- Add basic error/status log view (using `logs/`).
+
+**Week 2 – Inventory experience**
+- Show per-item pricing details and price sources.
+- Add filters (quality, craftable, tradable, price range).
+- Export inventory report (CSV/JSON).
+
+**Week 3 – Polish**
+- Improve UI layout and summaries.
+- Add background refresh option and last-updated timestamp.
+- Add empty-state and error-state UI.
+
 ## Executable location
 
 After a build, the app executable is here:
