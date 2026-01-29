@@ -1,4 +1,6 @@
-# ProjectTFDB
+# ProjectTFDB Made With Made with help from OpenAI.
+
+#Will Be Chageing it to c# code soon
 
 ## Quick start
 
@@ -84,4 +86,4 @@ Add the values in the app’s **Settings** tab (SteamID64, Steam Web API Key, Ba
 
 ---
 
-Made with help from OpenAI.
+
