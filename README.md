@@ -34,3 +34,9 @@ Current prototype snapshot:
 ```
 docs\Prototypes\Prototype1\
 ```
+
+Prototype executable location:
+
+```
+docs\Prototypes\Prototype1\Prototype1\bin\Debug\net10.0-windows\
+```
