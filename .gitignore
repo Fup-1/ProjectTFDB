@@ -1,23 +1,45 @@
-# Python
-__pycache__/
-*.py[cod]
-env/
-venv/
-ENV/
-.env
+# .NET / Visual Studio
+bin/
+obj/
+.vs/
+
+# Build output (common)
+artifacts/
+[Bb]uild/
+[Dd]ist/
+
+# Visual Studio user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test results
+TestResults/
+
+# NuGet
+packages/
+*.nupkg
 
 # Editor
 .vscode/
 .idea/
+*.DotSettings.user
 
 # OS files
 Thumbs.db
 .DS_Store
 
-# Build
-dist/
-build/
-*.egg-info/
-
 # Data
 *.sqlite3
+
+# Secrets (local only)
+.env
+.env.*
+appsettings.Local.json
+appsettings.*.Local.json
+appsettings.local.json
+appsettings.*.local.json
+
+# Local (not committed)
+NOTES_LOCAL.md

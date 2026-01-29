@@ -1,0 +1,21 @@
+<UserControl x:Class="ProjectTFDB.Views.DebugView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="12">
+            <TextBlock Text="Debug" FontSize="18" FontWeight="SemiBold" />
+            <TextBlock Margin="0,10,0,0" Text="Steam" FontWeight="SemiBold" />
+            <TextBlock Text="{Binding SteamStatus}" TextWrapping="Wrap" />
+            <TextBlock Margin="0,10,0,0" Text="Prices" FontWeight="SemiBold" />
+            <TextBlock Text="{Binding PricesStatus}" TextWrapping="Wrap" />
+            <TextBlock Margin="0,10,0,0" Text="Schema" FontWeight="SemiBold" />
+            <TextBlock Text="{Binding SchemaStatus}" TextWrapping="Wrap" />
+            <TextBlock Margin="0,10,0,0" Text="Last error" FontWeight="SemiBold" />
+            <TextBlock Text="{Binding LastError}" Foreground="Tomato" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
+

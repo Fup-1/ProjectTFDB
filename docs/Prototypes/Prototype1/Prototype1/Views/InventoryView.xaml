@@ -1,0 +1,34 @@
+<UserControl x:Class="ProjectTFDB.Views.InventoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d">
+    <Grid Margin="8">
+        <DataGrid ItemsSource="{Binding Items}"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  CanUserAddRows="False"
+                  HeadersVisibility="Column"
+                  GridLinesVisibility="None">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Icon" Width="44">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Width="32" Height="32"
+                                   Source="{Binding IconPath, Converter={StaticResource IconPathToImageSource}}"
+                                   Stretch="Uniform" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" />
+                <DataGridTextColumn Header="Quality" Binding="{Binding QualityName}" Width="110" />
+                <DataGridTextColumn Header="Qty" Binding="{Binding Quantity}" Width="60" />
+                <DataGridTextColumn Header="Sell (keys)" Binding="{Binding SellKeys}" Width="110" />
+                <DataGridTextColumn Header="Sell (ref)" Binding="{Binding SellRef}" Width="100" />
+                <DataGridTextColumn Header="Defindex" Binding="{Binding Defindex}" Width="90" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
+
