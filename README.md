@@ -45,17 +45,32 @@ docs\Prototypes\Prototype1\Prototype1\bin\Debug\net10.0-windows\
 
 ### Steam Web API Key
 1) Sign in to Steam.
-2) Visit the Steam Web API key page.
+2) Visit the Steam Web API key page (login required):
+
+```
+https://steamcommunity.com/dev/apikey
+```
+
 3) Enter a domain name (can be your local machine name) and create a key.
 
 ### Backpack.tf API Key
 1) Sign in to Backpack.tf.
-2) Go to your account page, then API key.
+2) Open the Developer Centre (Manage API Keys):
+
+```
+https://next.backpack.tf/account/api-access
+```
+
 3) Create a key and copy it.
 
 ### SteamID64
 You can get your SteamID64 in any of these ways:
-- Use the “View my profile” page on Steam and copy the 17‑digit ID from the profile URL.
-- Use an online SteamID converter and paste your profile URL or custom vanity URL.
+- Steam client: Account details shows your 17‑digit SteamID64.
+
+```
+https://flightsimulator.zendesk.com/hc/en-us/articles/360015953320-How-to-find-your-Steam-ID64-before-contacting-support
+```
+
+- Steam profile URL: if your profile URL is numeric, that 17‑digit number is your SteamID64.
 
 Add the values in the app’s **Settings** tab (SteamID64, Steam Web API Key, Backpack.tf API Key), then click **Save**.
