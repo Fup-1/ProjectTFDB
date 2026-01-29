@@ -40,3 +40,22 @@ Prototype executable location:
 ```
 docs\Prototypes\Prototype1\Prototype1\bin\Debug\net10.0-windows\
 ```
+
+## API keys and SteamID64
+
+### Steam Web API Key
+1) Sign in to Steam.
+2) Visit the Steam Web API key page.
+3) Enter a domain name (can be your local machine name) and create a key.
+
+### Backpack.tf API Key
+1) Sign in to Backpack.tf.
+2) Go to your account page, then API key.
+3) Create a key and copy it.
+
+### SteamID64
+You can get your SteamID64 in any of these ways:
+- Use the “View my profile” page on Steam and copy the 17‑digit ID from the profile URL.
+- Use an online SteamID converter and paste your profile URL or custom vanity URL.
+
+Add the values in the app’s **Settings** tab (SteamID64, Steam Web API Key, Backpack.tf API Key), then click **Save**.
